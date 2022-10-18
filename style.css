@@ -1,0 +1,47 @@
+*{
+    margin:0px ;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 80%;
+    background-color: rgb(212, 181, 240);
+    padding: 30px;
+    margin: auto;
+}
+p{
+    font-size: 20px;
+}
+input,textarea{
+    width: 80%;
+    margin: 11px auto;
+    padding: 10px;
+    font-size:13px;
+    border: 2px solid black;
+    border-radius: 12px;
+    outline: none;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn{
+    color: white;
+    background: purple;
+    padding: 10px;
+    font-size: 14px;
+    border: 2px solid blue;
+    border-radius: 18px;
+    cursor: pointer;
+    font-family: 'Tangerine', cursive;
+
+}
+h1{
+    font-family: 'Tangerine', cursive;
+}
+.pp{
+    font-size: 30px;
+    color: green;
+}
